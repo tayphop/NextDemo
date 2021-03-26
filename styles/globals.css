@@ -1,16 +1,52 @@
 html,
 body {
+    scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Times New Roman, Saysettha OT;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+p{
+  color: #003c3c;
+}
+h2,h5,h3,h4{
+ color:  #003c3c
+}
 
 * {
   box-sizing: border-box;
 }
+
+
+
+
+.c {
+  position: relative;  
+  text-align: center;
+  color: white;
+}
+.top-right {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: rgb(8, 8, 46); 
+}
+
+
+
+
+
+
+.myClassname {
+  /* margin-top: 10vw; */
+border: #1ABC9C;
+border-radius:10px;
+box-shadow: 5px 5px 5px #566573;
+}
+
+
+@import "~antd/dist/antd.css"
